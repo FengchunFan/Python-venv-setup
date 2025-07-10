@@ -28,6 +28,8 @@ python -m venv my_venv
 
 This creates a folder called my_venv/ containing the virtual environment.
 
+---
+
 ## 🔓 Step 2: Enable Script Execution (If Needed)
 
 PowerShell may block the activation script by default.  
@@ -45,6 +47,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ℹ️ This change is temporary and only applies to the current session. No permanent system settings are modified.
 
+---
+
 ## 🚀 Step 3: Activate the Virtual Environment
 
 Activate the virtual environment using:
@@ -58,6 +62,8 @@ You should see the command prompt change to show the active environment, like th
 ```text
 (my_venv) PS C:\your\project\path>
 ```
+
+---
 
 ## 📂 Step 4: Install Packages
 
@@ -76,6 +82,8 @@ pip install uv
 These packages will be installed inside the virtual environment, isolated from global Python.
 
 ![Example of installing a package in PowerShell](Screenshot.png)
+
+---
 
 ## ❎ Step 5: Deactivate the Environment
 
